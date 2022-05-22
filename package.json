@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "daisyui": "^2.15.0"
+  },
+  "name": "offthegrid",
+  "version": "1.0.0",
+  "description": "OffTheGrid Landing Page",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./public/assets/css/tailwind.css --watch"
+  },
+  "author": "OffTheGrid",
+  "license": "ISC"
+}
