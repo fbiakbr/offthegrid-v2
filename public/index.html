@@ -1,100 +1,159 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dracula">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OffTheGrid</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
-    <link rel="stylesheet" href="assets/css/offthegrid.css" />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!-- Stars -->
-    <div id="stars"></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OffTheGrid</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+  <link rel="stylesheet" href="assets/css/offthegrid.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+</head>
 
-    <!-- Navbar -->
-    <div class="navbar bg-base-100">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li><a>About</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Contact</a></li>
-          </ul>
-        </div>
-        <a class="btn btn-ghost normal-case text-xl">OffTheGrid</a>
-      </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+<body>
+  <!-- Stars -->
+  <div id="stars"></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+
+  <!-- Navbar -->
+  <div class="navbar bg-base-100">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li><a>About</a></li>
           <li><a>Services</a></li>
           <li><a>Portfolio</a></li>
           <li><a>Contact</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn btn-outline">Get started</a>
+      <a class="btn btn-ghost normal-case text-xl">OffTheGrid</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal p-0">
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn btn-outline rounded-full">Get started</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <div class="flex flex-col items-center justify-center min-h-screen bg-base-100">
+    <div class="container mx-auto px-4 py-8">
+      <h1 class="text-6xl font-bold text-center">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-400">We build almost</span>
+      </h1>
+      <h1 class="text-6xl font-bold text-center">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-400">everything for
+          you.</span>
+      </h1>
+      <div class="flex flex-col items-center mt-10">
+        <a class="btn btn-outline rounded-full">Get started</a>
       </div>
     </div>
+  </div>
 
-    <!-- Hero -->
-    <div
-      class="flex flex-col items-center justify-center min-h-screen bg-base-100"
-    >
-      <div class="container mx-auto px-4 py-8">
-        <h1 class="text-6xl font-bold text-center">
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-400">We build almost</span>
-        </h1>
-        <h1 class="text-6xl font-bold text-center">
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-400">everything for you.</span>
-        </h1>
-        <div class="flex flex-col items-center mt-10">
-          <a class="btn btn-outline">Get started</a>
+  <!-- About -->
+  <div data-theme="light">
+    <div class="container mx-auto px-4 py-10">
+      <div class="relative flex py-6 items-center">
+        <div class="flex-grow border-t"></div>
+        <h5 class="text-2xl flex-shrink mx-4">About</h5>
+        <div class="flex-grow border-t"></div>
+      </div>
+      <div class="grid grid-cols-2 gap-10 mt-8 items-center">
+        <img class="w-full" src="assets/img/design1.svg">
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-secondary">OffTheGrid - Techno Startup</h3>
+          <p class="text-lg mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat exercitationem necessitatibus, voluptatum
+            mollitia, nobis corporis laboriosam consequatur obcaecati quisquam fugit quae nostrum assumenda? Cupiditate
+            accusamus, iusto debitis repudiandae deleniti eveniet ea vel, iure illum alias omnis quibusdam tenetur
+            voluptates quos doloribus sunt dolorem facere ratione molestiae officiis pariatur natus. Deleniti.
+          </p>
+          <button class="btn btn-outline btn-secondary rounded-full gap-2">
+            Our Services
+            <i class="fas fa-arrow-right"></i>
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- About -->
-    <div data-theme="light">
-    <div class="container mx-auto px-4 py-8">
-      <h4 class="text-2xl font-bold text-center">About</h2>
-      <p class="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        consectetur, nisi sed consectetur sagittis, nisl nunc aliquet
-        tortor, eget porttitor nisl nunc eget.
-      </p>
+  <!-- Services -->
+  <div data-theme="light">
+    <div class="container mx-auto px-4 py-10">
+      <div class="relative flex py-6 items-center">
+        <div class="flex-grow border-t"></div>
+        <h5 class="text-2xl flex-shrink mx-4">Services</h5>
+        <div class="flex-grow border-t"></div>
+      </div>
+      <div class="grid grid-cols-4 gap-4 mt-8 items-center">
+        <!-- Card 1 -->
+        <div class="card w-72 bg-base-100 shadow-xl image-full">
+          <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card w-72 bg-base-100 shadow-xl image-full">
+          <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card w-72 bg-base-100 shadow-xl image-full">
+          <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card w-72 bg-base-100 shadow-xl image-full">
+          <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </body>
+
+  <script src="assets/js/all.min.js"></script>
+</body>
+
 </html>
